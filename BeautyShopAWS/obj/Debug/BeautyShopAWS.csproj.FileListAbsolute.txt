@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.exe.config
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.exe
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.pdb
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.pdb
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.CopyComplete
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.exe
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.pdb
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.dll.config

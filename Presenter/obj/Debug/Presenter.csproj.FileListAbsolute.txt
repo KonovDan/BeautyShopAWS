@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\Presenter\bin\Debug\Presenter.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\Presenter\bin\Debug\Presenter.pdb
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\Presenter\obj\Debug\Presenter.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\Presenter\obj\Debug\Presenter.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\Presenter\obj\Debug\Presenter.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\Presenter\obj\Debug\Presenter.pdb

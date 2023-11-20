@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\View.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\View.pdb
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.MainForm.resources
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.LoginForm.resources
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.ManageForm.resources
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.Properties.Resources.resources
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.pdb
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\View.dll.config
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\Interop.LCC11.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\Interop.Microsoft.Office.Core.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.csproj.ResolveComReference.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.Form1.resources
