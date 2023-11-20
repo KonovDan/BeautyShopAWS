@@ -19,8 +19,6 @@ namespace View
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // TODO: This line of code loads data into the 'beautyShopDBDataSet.Orders' table. You can move, or remove it, as needed.
-            this.ordersTableAdapter.Fill(this.beautyShopDBDataSet.Orders);
             var i = this.beautyShopDBDataSet.Orders;
 
             int v = this.ordersTableAdapter.Fill(i);

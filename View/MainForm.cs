@@ -41,7 +41,6 @@ namespace View
             //this.button_login.UseVisualStyleBackColor = true;
             //this.button_login.Click += new System.EventHandler(this.button_login_Click);
 
-            this.panel_client.Controls.Add(btn);
         }
 
         private void setViewMode(object sender, EventArgs e)
