@@ -10,11 +10,19 @@ using System.Windows.Forms;
 
 namespace View
 {
-    public partial class Form1 : Form
+    public partial class AdminView : Form
     {
-        public Form1()
+        public AdminView()
         {
             InitializeComponent();
+        }
+
+        private void AdminView_Load(object sender, EventArgs e)
+        {
+            // TODO: This line of code loads data into the 'beautyShopDBDataSet.Clients' table. You can move, or remove it, as needed.
+            this.clientsTableAdapter.Fill(this.beautyShopDBDataSet.Clients);
+
+
         }
     }
 }
