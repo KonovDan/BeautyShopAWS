@@ -9,7 +9,7 @@ using System.Windows.Forms;
 
 namespace View
 {
-    public partial class MainForm : Form, IView
+    public partial class MainForm : Form
     {
         public readonly bool isReady;
         public readonly OleDbConnection connection;

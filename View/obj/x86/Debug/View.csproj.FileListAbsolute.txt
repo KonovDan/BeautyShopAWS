@@ -10,7 +10,7 @@ C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\x86\Debug\View.
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\x86\Debug\View.dll
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\x86\Debug\View.pdb
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\x86\Debug\View.dll.config
-C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\x86\Debug\View.Form1.resources
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\x86\Debug\Interop.LCC11.dll
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\x86\Debug\Interop.Microsoft.Office.Core.dll
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\x86\Debug\View.csproj.ResolveComReference.cache
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\x86\Debug\View.AdminView.resources
