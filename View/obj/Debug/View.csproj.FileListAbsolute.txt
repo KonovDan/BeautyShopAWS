@@ -13,4 +13,16 @@ C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\View.dll.
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\Interop.LCC11.dll
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\Interop.Microsoft.Office.Core.dll
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.csproj.ResolveComReference.cache
-C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.Form1.resources
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.CreateTableForm.resources
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.ClientView.resources
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.EditTableForm.resources
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\Twilio.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\bin\Debug\Twilio.xml
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\View\obj\Debug\View.csproj.CopyComplete

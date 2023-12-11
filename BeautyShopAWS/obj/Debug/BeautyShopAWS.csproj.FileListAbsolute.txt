@@ -9,3 +9,12 @@ C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.exe
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.pdb
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.dll.config
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Twilio.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Logging.dll
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Twilio.xml
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Tokens.xml

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
+using System.Data.OleDb;
 using System.Windows.Forms;
 
 namespace View
@@ -7,10 +9,20 @@ namespace View
     public partial class ManageForm : Form
     {
         public bool state = false;
-        public ManageForm(string unitType)
+        public ManageForm(OleDbConnection connection, string unitType)
         {
             this.state = false;
             InitializeComponent();
+
+            DataTable columnsSchema = connection.GetSchema("Columns", new[] { null, null, unitType });
+
+            // Выводим имена столбцов
+            foreach (DataRow row in columnsSchema.Rows)
+            {
+                string columnName = row["COLUMN_NAME"].ToString();
+            }
+
+
             this.groupBox_client.Visible = false;
             this.groupBox_order.Visible = false;
             this.groupBox_user.Visible = false;
@@ -24,7 +36,7 @@ namespace View
                     break;
                 case "Orders":
                     {
-  
+
                         this.groupBox_order.Visible = true;
 
                     }
