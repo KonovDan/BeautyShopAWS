@@ -11,17 +11,14 @@ namespace View
 {
     public partial class MainForm : Form
     {
-        public readonly OleDbConnection connection;
+        public readonly OleDbConnection connection = new OleDbConnection(ConfigurationManager.AppSettings.Get("connection_string"));
         string currentTableName;
         public MainForm()
         {
+            this.connection.Open();
+
             #region Initialization
             InitializeComponent();
-            #endregion
-
-            #region Prepare database
-            connection = new OleDbConnection(ConfigurationManager.AppSettings.Get("connection_string"));
-            this.connection.Open();
             #endregion
 
             #region Update view
@@ -42,7 +39,7 @@ namespace View
                                 fields.Add(row["COLUMN_NAME"].ToString());
                             }
                         foreach (DataGridViewCell cell in this.dataGridView1.Rows[args.RowIndex].Cells) values.Add(cell.Value.ToString());
-                        if (values.Any((string s) => s != "" ? true : false) && values[0].ToString() != "")
+                        if (values[0] != "")
                         {
                             for (int i = 1; i < fields.Count; ++i)
                             {
@@ -65,10 +62,12 @@ namespace View
                             command = new OleDbCommand($"INSERT INTO {currentTableName}({columns_s}) VALUES ({values_s});", connection);
                         }
                         command.ExecuteNonQuery();
+                        updatedatagridview();
                      });
             #endregion
         }
 
+  
         private void updatedatagridview()
         {
             DataTable dataTable = new DataTable();

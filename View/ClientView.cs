@@ -40,7 +40,7 @@ namespace View
             command = new OleDbCommand("SELECT * FROM service;", connection);
             reader = command.ExecuteReader();
 
-            listView_masters.Columns.Add("ID");
+            listView_services.Columns.Add("ID");
             listView_services.Columns.Add("название");
             listView_services.Columns.Add("цена");
             while (reader.Read())
@@ -72,6 +72,7 @@ namespace View
         }
         private void updateTimeList(object sender, EventArgs e)
         {
+            
             OleDbCommand command = new OleDbCommand("SELECT время FROM orders;", connection);
             OleDbDataReader reader = command.ExecuteReader();
 
