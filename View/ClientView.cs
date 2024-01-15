@@ -52,7 +52,35 @@ namespace View
                 this.listView_services.Items.Add(item);
             }
 
+            foreach(string service in new string[] {"стрижка","окрашивание", "укладка"})
+            {
+                ToolStripMenuItem item = new ToolStripMenuItem();
+                item.Text = service;
+                item.Click += new EventHandler((object o, EventArgs e) => {
+                    this.видУслугиToolStripMenuItem.Text = item.Text;
+                    listView_services.Items.Clear();
+                    command = new OleDbCommand("SELECT * FROM service;", connection);
+                    reader = command.ExecuteReader();
+                    while (reader.Read())
+                    {
+                        ListViewItem _item = new ListViewItem();
+                        _item.Text = reader[0].ToString();
+                        _item.SubItems.Add(reader[1].ToString());
+                        _item.SubItems.Add(reader[2].ToString());
+                        this.listView_services.Items.Add(_item);
+                    }
+                    foreach (ListViewItem listViewItem in this.listView_services.Items)
+                    {
+                        
+                        if (!listViewItem.SubItems[1].Text.Contains(item.Text.Remove(0, 1)))
+                        {
+                            listView_services.Items.Remove(listViewItem);
+                        }
+                    }
+                });
+                this.видУслугиToolStripMenuItem.DropDownItems.Add(item);
 
+            }
 
             this.monthCalendar1.DateSelected += new DateRangeEventHandler(updateTimeList);
             this.FormClosed += new FormClosedEventHandler(ClientViewClose);
@@ -67,8 +95,7 @@ namespace View
             var message = MessageResource.Create(
             to: new PhoneNumber($"'+'+{textBox_phone}"),
             from: new PhoneNumber("+79937822497"),
-            body: $"Вы записаны к {listView_masters.SelectedItems[0]} на {listView_time.SelectedItems[0]}."); ; ; ;
-
+            body: $"Вы записаны к {listView_masters.SelectedItems[0]} на {listView_time.SelectedItems[0]}.");
         }
         private void updateTimeList(object sender, EventArgs e)
         {
@@ -112,7 +139,7 @@ namespace View
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("" +
+                Console.WriteLine("" +
                 $"{textBox_firstName.Text}\n" +
                 $"{textBox_lastName.Text}\n" +
                 $"{textBox_phone.Text}\n" +
@@ -162,6 +189,11 @@ namespace View
             command.ExecuteNonQuery();
 
             updateTimeList(null, null);
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 

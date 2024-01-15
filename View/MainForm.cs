@@ -23,6 +23,7 @@ namespace View
 
             #region Update view
             updateTableList();
+            
             dataGridView1.CellValueChanged += new DataGridViewCellEventHandler(
                 (object sender, DataGridViewCellEventArgs args) =>
                     {
@@ -30,44 +31,60 @@ namespace View
                         OleDbCommand command;
                         string values_s = "";
                         string columns_s = "";
-                        string ID = "";
-                        List<string> fields = new List<string>() { };
-                        List<string> values = new List<string>() { };
-                        foreach (DataRow row in connection.GetSchema("Columns").Rows) if (row["TABLE_NAME"].ToString() == currentTableName)
-                            {
-                                if (ID=="") ID = row["COLUMN_NAME"].ToString();
-                                fields.Add(row["COLUMN_NAME"].ToString());
-                            }
-                        foreach (DataGridViewCell cell in this.dataGridView1.Rows[args.RowIndex].Cells) values.Add(cell.Value.ToString());
-                        if (values[0] != "")
+                        Dictionary<string, string> FAKEPEACEOFCAKE = new Dictionary<string, string>();
+                        int PAPAYA = 0;
+                        foreach (DataGridViewCell cell in dataGridView1.Rows[args.RowIndex].Cells)
                         {
-                            for (int i = 1; i < fields.Count; ++i)
-                            {
-                                values_s += fields[i] + "=" + "\"" + (values[i] != "" ? values[i] : "NULL") + "\"";
-                                if (i != fields.Count - 1) values_s += ", ";
-                            }
-                            command = new OleDbCommand($"UPDATE {currentTableName} SET {values_s} WHERE ID={values[0]};", connection);
+                            FAKEPEACEOFCAKE[dataGridView1.Columns[PAPAYA].Name] = cell.Value.ToString();
+                            PAPAYA++;
                         }
-                        else
+
+                        try
                         {
-                            int i = 0;
-                            if (ID == "ID") i = 1;
-                            for (; i < values.Count; ++i)
+                            if (dataGridView1.Rows[args.RowIndex].Cells[0].Value.ToString() != "")
                             {
-                                columns_s += fields[i] + ", ";
-                                values_s += (values[i]!=""? "\"" + values[i] + "\"" : "NULL")  + ", ";
+                                foreach (string columnName in FAKEPEACEOFCAKE.Keys)
+                                {
+
+                                    if (FAKEPEACEOFCAKE[columnName].Equals("") || columnName == "ID") continue;
+                                    if(FAKEPEACEOFCAKE[columnName].Contains('/'))
+                                    {
+                                        List<string> values = FAKEPEACEOFCAKE[columnName].Split('/').ToList();
+                                        values_s += columnName + "=" + "\"" + values[0] + "-" + values[1] + "-" + values[2] + "\", ";
+                                    } else
+                                    {
+
+                                    values_s += columnName + "=" + "\"" + FAKEPEACEOFCAKE[columnName] + "\", ";
+                                    }
+                                }
+                                values_s = values_s.Remove(values_s.Length - 2, 2);
+                                Console.WriteLine(dataGridView1.Rows[args.RowIndex].Cells[0].Value);
+                                command = new OleDbCommand($"UPDATE {currentTableName} SET {values_s} WHERE ID={dataGridView1.Rows[args.RowIndex].Cells[0].Value.ToString()};", connection);
+
                             }
-                            columns_s = columns_s.Remove(columns_s.Length - 2, 2);
-                            values_s = values_s.Remove(values_s.Length - 2, 2);
-                            command = new OleDbCommand($"INSERT INTO {currentTableName}({columns_s}) VALUES ({values_s});", connection);
+                            else
+                            {
+                                foreach (string columnName in FAKEPEACEOFCAKE.Keys)
+                                {
+                                    if (FAKEPEACEOFCAKE[columnName].Equals("")) continue;
+                                    columns_s += columnName + ", ";
+                                    values_s += "\"" + FAKEPEACEOFCAKE[columnName] + "\"" + ", ";
+                                }
+                                columns_s = columns_s.Remove(columns_s.Length - 2, 2);
+                                values_s = values_s.Remove(values_s.Length - 2, 2);
+                                command = new OleDbCommand($"INSERT INTO {currentTableName}({columns_s}) VALUES ({values_s});", connection);
+                            }
+                            command.ExecuteNonQuery();
+                            updatedatagridview();
+                        } catch
+                        {
+
                         }
-                        command.ExecuteNonQuery();
-                        updatedatagridview();
                      });
             #endregion
         }
 
-  
+
         private void updatedatagridview()
         {
             DataTable dataTable = new DataTable();
@@ -90,6 +107,7 @@ namespace View
             }
             updatedatagridview();
         }
+
 
         private void updateTableList()
         {

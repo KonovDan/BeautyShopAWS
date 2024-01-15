@@ -23,7 +23,6 @@ namespace View
                 "FLOAT",
                 "DATE",
                 "DATETIME",
-                
                 "TEXT"
             })
             {

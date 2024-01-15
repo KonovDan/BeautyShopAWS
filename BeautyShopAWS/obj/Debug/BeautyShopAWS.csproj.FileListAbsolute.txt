@@ -18,3 +18,43 @@ C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Newtonsoft.Json.xml
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
 C:\Users\User\Desktop\Code\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.exe.config
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.exe
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.pdb
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.dll
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Twilio.dll
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Newtonsoft.Json.dll
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Logging.dll
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.pdb
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.dll.config
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Twilio.xml
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Newtonsoft.Json.xml
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.AssemblyReference.cache
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.CoreCompileInputs.cache
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.CopyComplete
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.exe
+Z:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.pdb
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.exe.config
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.exe
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\BeautyShopAWS.pdb
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.dll
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Twilio.dll
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Newtonsoft.Json.dll
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\System.IdentityModel.Tokens.Jwt.dll
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Tokens.dll
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Logging.dll
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.pdb
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\View.dll.config
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Twilio.xml
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Newtonsoft.Json.xml
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\System.IdentityModel.Tokens.Jwt.xml
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\bin\Debug\Microsoft.IdentityModel.Tokens.xml
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.AssemblyReference.cache
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.CoreCompileInputs.cache
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.csproj.CopyComplete
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.exe
+Y:\DaniilKonovalov\Project files\code_storage\SFU\Semester_3\BeautyShopAWS\BeautyShopAWS\obj\Debug\BeautyShopAWS.pdb
